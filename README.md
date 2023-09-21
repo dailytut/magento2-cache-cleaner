@@ -20,12 +20,12 @@ cd path_to_the_magento_root_directory
 2. Install the module via Composer:
 
 ```bash
-composer require yournamespace/module-cachecleaner
+composer require w3cert/magento2-cachecleaner
 ```
 3. Enable the module:
 
 ```bash
-php bin/magento module:enable YourNamespace_CacheCleaner
+php bin/magento module:enable W3cert_CacheCleaner
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 
@@ -44,7 +44,7 @@ cd path_to_the_magento_root_directory
 ### Enable the module:
 
 ```bash
-php bin/magento module:enable YourNamespace_CacheCleaner
+php bin/magento module:enable W3cert_CacheCleaner
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```

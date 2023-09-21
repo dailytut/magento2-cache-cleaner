@@ -1,5 +1,5 @@
 {
-    "name": "w3cert/module-cachecleaner",
+    "name": "w3cert/magento2-cachecleaner",
     "description": "A Magento 2 module to clear both Magento and Varnish caches",
     "type": "magento2-module",
     "version": "1.0.0",
