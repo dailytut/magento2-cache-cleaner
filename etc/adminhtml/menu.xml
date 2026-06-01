@@ -1,11 +1,12 @@
+<?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="W3cert_CacheCleaner::cache_cleaner" 
-             title="Clear Varnish &amp; Magento Cache" 
-             module="W3cert_CacheCleaner" 
-             sortOrder="2000" 
-             parent="Magento_Backend::system_tools" 
-             action="cache_cleaner/index/index" 
+        <add id="W3cert_CacheCleaner::cache_cleaner"
+             title="Clear Varnish &amp; Magento Cache"
+             module="W3cert_CacheCleaner"
+             sortOrder="2000"
+             parent="Magento_Backend::system_tools"
+             action="cache_cleaner/index/index"
              resource="W3cert_CacheCleaner::cache_cleaner"/>
     </menu>
 </config>
